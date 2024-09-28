@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Frist{
+            color: rgb(18, 167, 109);
+        }
+        .sec{
+            color: blueviolet;
+        }
+        .floating{
+            animation: Scroll 10s  linear  1s infinite ;
+        }
+        @keyframes Scroll{
+            0%{
+                transform: translateX(100%);
+                
+            }
+50%{
+    transform: skewX(20deg);
+}
+            100%{
+                transform: translateX(-100%);
+                
+            }
+        }
+      a{
+        text-decoration: none;
+        color: rgb(13, 196, 52);
+      }
+      a:hover{
+        color: chocolate;
+        font-size: 75px;
+      }
+      
+      a:focus{
+        color: red;
+      }
+    </style>
+</head>
+<body>
+    <h1 class="floating">
+        <span class="Frist">Hey, Welcome To</span> <span class="sec"> My Web Site.</span>
+    </h1>
+    <div class="kno">
+        <h2>I know It's not looking Preety.</h2>
+         <p>For Check My Frist Project Click on below</p>
+
+         <h1 class="link"><a href="bmi.html" target="_self">BMI</a></h1>
+    </div>
+</body>
+</html>
